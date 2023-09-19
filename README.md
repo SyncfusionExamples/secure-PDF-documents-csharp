@@ -12,13 +12,13 @@ A secure PDF document created with Syncfusion undergoes enhancements and fortifi
 
 Sample name | Description
 --- | ---
-[Encrypt PDF with user password]() | Encrypt PDF document with user password. 
-[Encrypt PDF with owner password]() | Encrypt PDF document with owner password.
-[Protect an existing PDF]() | Protect an existing PDF document.
-[Change password of PDF]() | Change password of the PDF document. 
-[Change permission of PDF]() | Change the permission of the PDF document. 
-[Protect attachments]() | Protect attachments in an existing PDF document. 
-[Remove password from PDF]() | Remove password from an existing PDF document. 
+[Encrypt PDF with user password](https://github.com/SyncfusionExamples/secure-PDF-documents-csharp/tree/master/Encrypt-PDF-with-user-password) | Encrypt PDF document with user password. 
+[Encrypt PDF with owner password](https://github.com/SyncfusionExamples/secure-PDF-documents-csharp/tree/master/Encrypt-PDF-with-owner-password) | Encrypt PDF document with owner password.
+[Protect an existing PDF](https://github.com/SyncfusionExamples/secure-PDF-documents-csharp/tree/master/Protect-an-existing-PDF-document) | Protect an existing PDF document.
+[Change password of PDF](https://github.com/SyncfusionExamples/secure-PDF-documents-csharp/tree/master/Change-password-of-PDF-document) | Change password of the PDF document. 
+[Change permission of PDF](https://github.com/SyncfusionExamples/secure-PDF-documents-csharp/tree/master/Change-permission-of-PDF-document) | Change the permission of the PDF document. 
+[Protect attachments](https://github.com/SyncfusionExamples/secure-PDF-documents-csharp/tree/master/Protect-attachments-in-PDF-document) | Protect attachments in an existing PDF document. 
+[Remove password from PDF](https://github.com/SyncfusionExamples/secure-PDF-documents-csharp/tree/master/Remove-password-from-PDF-document) | Remove password from an existing PDF document. 
 
 ## Encrypt PDF document with user password  
 
