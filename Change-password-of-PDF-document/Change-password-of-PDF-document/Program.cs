@@ -4,7 +4,7 @@ using Syncfusion.Pdf.Parsing;
 using System.Reflection.Metadata;
 
 //Load an existing PDF document.
-FileStream docStream = new FileStream("../../../Input.pdf", FileMode.Open, FileAccess.Read);
+FileStream docStream = new FileStream("Input.pdf", FileMode.Open, FileAccess.Read);
 PdfLoadedDocument loadedDocument = new PdfLoadedDocument(docStream, "ownerPassword256");
 //Change the user password.
 loadedDocument.Security.UserPassword = "NewUserPassword";
@@ -12,7 +12,7 @@ loadedDocument.Security.UserPassword = "NewUserPassword";
 loadedDocument.Security.OwnerPassword = "NewOwnerPassword";
 
 //Create file stream.
-using (FileStream outputFileStream = new FileStream(Path.GetFullPath(@"../../../Output.pdf"), FileMode.Create, FileAccess.ReadWrite))
+using (FileStream outputFileStream = new FileStream(Path.GetFullPath(@"Output.pdf"), FileMode.Create, FileAccess.ReadWrite))
 {
     //Save the PDF document to file stream.
     loadedDocument.Save(outputFileStream);

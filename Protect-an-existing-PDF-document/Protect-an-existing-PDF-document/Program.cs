@@ -3,10 +3,10 @@
 using Syncfusion.Pdf.Parsing;
 using Syncfusion.Pdf.Security;
 
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Mgo+DSMBMAY9C3t2VFhhQlVEfV5AQmBIYVp/TGpJfl96cVxMZVVBJAtUQF1hSn5Qd0FjUH5fdX1RR2ZZ");
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Your license key");
 
 //Load the PDF document.
-FileStream docStream = new FileStream("../../../Input.pdf", FileMode.Open, FileAccess.Read);
+FileStream docStream = new FileStream("Input.pdf", FileMode.Open, FileAccess.Read);
 PdfLoadedDocument document = new PdfLoadedDocument(docStream);
 
 //PDF document security.
@@ -19,7 +19,7 @@ security.OwnerPassword = "ownerPassword256";
 security.UserPassword = "userPassword256";
 
 //Create file stream.
-using (FileStream outputFileStream = new FileStream(Path.GetFullPath(@"../../../Output.pdf"), FileMode.Create, FileAccess.ReadWrite))
+using (FileStream outputFileStream = new FileStream(Path.GetFullPath(@"Output.pdf"), FileMode.Create, FileAccess.ReadWrite))
 {
     //Save the PDF document to file stream.
     document.Save(outputFileStream);
