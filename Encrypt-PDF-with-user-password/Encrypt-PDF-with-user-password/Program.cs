@@ -22,7 +22,7 @@ security.UserPassword = "password";
 graphics.DrawString("This document protected with user password", new PdfStandardFont(PdfFontFamily.TimesRoman, 20f, PdfFontStyle.Bold), PdfBrushes.Black, new PointF(0, 40));
 
 //Create file stream.
-using (FileStream outputFileStream = new FileStream(Path.GetFullPath(@"../../../Output.pdf"), FileMode.Create, FileAccess.ReadWrite))
+using (FileStream outputFileStream = new FileStream(Path.GetFullPath(@"Output.pdf"), FileMode.Create, FileAccess.ReadWrite))
 {
     //Save the PDF document to file stream.
     document.Save(outputFileStream);

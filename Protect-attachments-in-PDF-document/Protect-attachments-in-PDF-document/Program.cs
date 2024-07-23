@@ -5,7 +5,7 @@ using Syncfusion.Pdf.Parsing;
 using Syncfusion.Pdf.Security;
 
 //Load the PDF document.
-FileStream docStream = new FileStream("../../../Input.pdf", FileMode.Open, FileAccess.Read);
+FileStream docStream = new FileStream("Input.pdf", FileMode.Open, FileAccess.Read);
 PdfLoadedDocument document = new PdfLoadedDocument(docStream);
 
 //PDF document security.
@@ -19,7 +19,7 @@ security.UserPassword = "password";
 security.EncryptionOptions = PdfEncryptionOptions.EncryptOnlyAttachments;
 
 //Create file stream.
-using (FileStream outputFileStream = new FileStream(Path.GetFullPath(@"../../../Output.pdf"), FileMode.Create, FileAccess.ReadWrite))
+using (FileStream outputFileStream = new FileStream(Path.GetFullPath(@"Output.pdf"), FileMode.Create, FileAccess.ReadWrite))
 {
     //Save the PDF document to file stream.
     document.Save(outputFileStream);
