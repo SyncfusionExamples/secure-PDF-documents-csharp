@@ -1,6 +1,6 @@
-# Securing PDF documents in C# with the Syncfusion .NET PDF Library 
+# Securing PDF documents in C# with the Syncfusion&reg; .NET PDF Library 
 
-A secure PDF document created with Syncfusion undergoes enhancements and fortification through the implementation of various security measures and features provided by Syncfusion. The repository includes examples for encrypting or decrypting PDF documents, altering password or permissions for PDF documents, safeguarding attachments, and removing passwords from PDF documents. Some of the use cases that we will cover in this article include:
+A secure PDF document created with Syncfusion&reg; undergoes enhancements and fortification through the implementation of various security measures and features provided by Syncfusion&reg;. The repository includes examples for encrypting or decrypting PDF documents, altering password or permissions for PDF documents, safeguarding attachments, and removing passwords from PDF documents. Some of the use cases that we will cover in this article include:
 
 * Encrypt PDF document with user password 
 * Encrypt PDF document with owner password 
@@ -87,7 +87,7 @@ By executing the program, you will get the PDF document's security settings as f
 <img src="Images/Owner_password.png" alt="PDF Form" width="100%" Height="Auto"/>
 
 ## Protect an existing PDF document 
-With the help of our Syncfusion PDF library, you can easily protect an existing PDF document. 
+With the help of our Syncfusion&reg; PDF library, you can easily protect an existing PDF document. 
 
 ```csharp
 
@@ -116,7 +116,7 @@ By executing this code example, you will get a PDF document like the following s
 <img src="Images/Protect_existing_PDF.png" alt="PDF Form" width="100%" Height="Auto"/>
 
 ## Change the password of the PDF document 
-Updating the password of a PDF document is an essential step in ensuring document security and controlling access. Syncfusion simplifies this process, allowing you to effortlessly modify both the user password and owner password of the PDF document. 
+Updating the password of a PDF document is an essential step in ensuring document security and controlling access. Syncfusion&reg; simplifies this process, allowing you to effortlessly modify both the user password and owner password of the PDF document. 
 
 ```csharp
 
@@ -138,7 +138,7 @@ loadedDocument.Close(true);
 
 ## Change the permission of the PDF document 
 
-Syncfusion empowers you to effortlessly modify permissions for a PDF document, providing complete control over access, editing, printing, and other operations performed on the file.  
+Syncfusion&reg; empowers you to effortlessly modify permissions for a PDF document, providing complete control over access, editing, printing, and other operations performed on the file.  
 
 ```csharp
 
@@ -161,7 +161,7 @@ By executing this code example, you will get a PDF document with permission as l
 
 ## Protect attachments in an existing PDF document 
 
-Syncfusion seamlessly provides the necessary capabilities to encrypt attachments with strong passwords, ensuring added authenticity. 
+Syncfusion&reg; seamlessly provides the necessary capabilities to encrypt attachments with strong passwords, ensuring added authenticity. 
 
 ```csharp
 
@@ -189,7 +189,7 @@ document.Close(true);
 
 ## Remove password from PDF document 
 
-Syncfusion simplifies the process of accessing and modifying secured files by effortlessly removing passwords from PDF documents. 
+Syncfusion&reg; simplifies the process of accessing and modifying secured files by effortlessly removing passwords from PDF documents. 
 
 ```csharp
 
@@ -217,22 +217,22 @@ By executing this code example, you will be able to remove the protection from a
 * Run the application.
 
 # Resources
-*   **Product page:** [Syncfusion PDF Framework](https://www.syncfusion.com/document-processing/pdf-framework/net)
-*   **Documentation page:** [Syncfusion .NET PDF library](https://help.syncfusion.com/file-formats/pdf/overview)
-*   **Online demo:** [Syncfusion .NET PDF library - Online demos](https://ej2.syncfusion.com/aspnetcore/PDF/CompressExistingPDF#/bootstrap5)
-*   **Blog:** [Syncfusion .NET PDF library - Blog](https://www.syncfusion.com/blogs/category/pdf)
-*   **Knowledge Base:** [Syncfusion .NET PDF library - Knowledge Base](https://www.syncfusion.com/kb/windowsforms/pdf)
-*   **EBooks:** [Syncfusion .NET PDF library - EBooks](https://www.syncfusion.com/succinctly-free-ebooks)
-*   **FAQ:** [Syncfusion .NET PDF library - FAQ](https://www.syncfusion.com/faq/)
+*   **Product page:** [Syncfusion&reg; PDF Framework](https://www.syncfusion.com/document-processing/pdf-framework/net)
+*   **Documentation page:** [Syncfusion&reg; .NET PDF library](https://help.syncfusion.com/file-formats/pdf/overview)
+*   **Online demo:** [Syncfusion&reg; .NET PDF library - Online demos](https://ej2.syncfusion.com/aspnetcore/PDF/CompressExistingPDF#/bootstrap5)
+*   **Blog:** [Syncfusion&reg; .NET PDF library - Blog](https://www.syncfusion.com/blogs/category/pdf)
+*   **Knowledge Base:** [Syncfusion&reg; .NET PDF library - Knowledge Base](https://www.syncfusion.com/kb/windowsforms/pdf)
+*   **EBooks:** [Syncfusion&reg; .NET PDF library - EBooks](https://www.syncfusion.com/succinctly-free-ebooks)
+*   **FAQ:** [Syncfusion&reg; .NET PDF library - FAQ](https://www.syncfusion.com/faq/)
 
 # Support and feedback
-*   For any other queries, reach our [Syncfusion support team](https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples) or post the queries through the [community forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples).
-*   Request new feature through [Syncfusion feedback portal](https://www.syncfusion.com/feedback?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples).
+*   For any other queries, reach our [Syncfusion&reg; support team](https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples) or post the queries through the [community forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples).
+*   Request new feature through [Syncfusion&reg; feedback portal](https://www.syncfusion.com/feedback?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples).
 
 # License
 This is a commercial product and requires a paid license for possession or use. Syncfusion’s licensed software, including this component, is subject to the terms and conditions of [Syncfusion's EULA](https://www.syncfusion.com/eula/es/?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples). You can purchase a licnense [here](https://www.syncfusion.com/sales/products?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples) or start a free 30-day trial [here](https://www.syncfusion.com/account/manage-trials/start-trials?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples).
 
-# About Syncfusion
-Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 26,000+ customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
+# About Syncfusion&reg;
+Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion&reg; has more than 26,000+ customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
 
 Today, we provide 1600+ components and frameworks for web ([Blazor](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [ASP.NET Core](https://www.syncfusion.com/aspnet-core-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [ASP.NET MVC](https://www.syncfusion.com/aspnet-mvc-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [ASP.NET WebForms](https://www.syncfusion.com/jquery/aspnet-webforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [Angular](https://www.syncfusion.com/angular-ui-components?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [React](https://www.syncfusion.com/react-ui-components?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [Vue](https://www.syncfusion.com/vue-ui-components?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), and [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)), mobile ([Xamarin](https://www.syncfusion.com/xamarin-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), and [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)), and desktop development ([WinForms](https://www.syncfusion.com/winforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [WPF](https://www.syncfusion.com/wpf-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [WinUI(Preview)](https://www.syncfusion.com/winui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples), [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples) and [UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)). We provide ready-to-deploy enterprise software for dashboards, reports, data integration, and big data processing. Many customers have saved millions in licensing fees by deploying our software.
