@@ -1,6 +1,6 @@
 # Securing PDF documents in C# with the Syncfusion&reg; .NET PDF Library 
 
-A secure PDF document created with Syncfusion&reg; undergoes enhancements and fortification through the implementation of various security measures and features provided by Syncfusion. The repository includes examples for encrypting or decrypting PDF documents, altering password or permissions for PDF documents, safeguarding attachments, and removing passwords from PDF documents. Some of the use cases that we will cover in this article include:
+A secure PDF document created with Syncfusion&reg; undergoes enhancements and fortification through the implementation of various security measures and features provided by Syncfusion&reg;. The repository includes examples for encrypting or decrypting PDF documents, altering password or permissions for PDF documents, safeguarding attachments, and removing passwords from PDF documents. Some of the use cases that we will cover in this article include:
 
 * Encrypt PDF document with user password 
 * Encrypt PDF document with owner password 
